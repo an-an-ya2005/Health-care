@@ -1,0 +1,133 @@
+.main {
+  padding: 10px;
+  height: 100vh;
+  background-color: #f4f6f9;
+  font-family: 'Arial', sans-serif;
+}
+
+.layout {
+  display: flex;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.sidebar {
+  min-height: 100%;
+  width: 300px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00aaff, #0077cc);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.logo h6 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 10px 0;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.menu {
+  margin-top: 40px;
+}
+
+.menu-item {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(5px);
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu-item i {
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+.active {
+  background-color: white;
+  color: skyblue;
+}
+
+.active a,
+.active i {
+  color: skyblue;
+}
+
+.content {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  height: 10vh;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.header-content i {
+  margin-right: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.header-content a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.body {
+  padding: 20px;
+  height: 80vh;
+  background-color: #f4f6f9;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.menu-item.logout {
+  margin-top: 40px;
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-item.logout:hover {
+  background-color: darkred;
+}
+
+.badge {
+  margin-right: 40px;
+  cursor: pointer;
+}
